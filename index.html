@@ -1,67 +1,76 @@
-<html lang="en" dir="ltr">
 <!DOCTYPE html>
-  <head>
+<html lang="en" dir="ltr">
+ <head>
     <meta charset="utf-8">
     <title>My favorite things</title>
-    <body>
-      <strong><h1>My favorite things</h1></strong>
 
-   <style>
-
-h1{text-align:center;
-font-size:50px;
-border-bottom: 1px gray solid
-margin-bottom:0px;}
-
-.grid{display: grid;
-grid-template-columns: 150px 1fr;}
-
-.navigation{boder-right:1 px solid gray;}
-
-
-
-h1 {border-bottom:50px
-    solid black;}
-    ol{
-      border-right:
-    5px solid pink;
+    <style media="screen">
+a{
+  text-decoration: none;
+  color:black;
+}
+h1{
+  text-align: center;
+  font size: 80px;
+  border-bottom: solid 1px gray; solid gray;
   margin: 0;
-width:100px;
-padding:20px;    }
-h1
-{border:5px solid red;
-padding:20px;
-margin:20px;
-display:red;
-width:400px;}
+  padding: 20px;
+  }
+
+  h2 {
+    color: red;
+  }
+.grid {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+}
+
+.navigation{
+  border-right: 1px gray solid;
+}
+
+.article {
+  padding-left: 25px;
+}
+
+@media(max-width:800px)
+{.grid{
+  display: block;
+}
+.navigation{
+  border-right: none;
+  ;
+}
 h1 {
-font-size:45px;
-text-align: center;
-border-bottom:1px solid gray;
-margin:0;
-padding:20px;
+  border-bottom: none;}
 }
+</style>
+</head>
 
-ul{
-border-right:1px solid gray;
-width:100px;
-margin:0;
-padding:20px;
-}
+    <body>
+      <h1><strong><p><a href="index.html">My favorite things</a></p></strong></h1>
 
-    </style>
+    <div class="grid">
+        <div class="navigation">
 
-  </head>
+          <h3><ul>
+            <li><a href="1.html">shopping</a></li>
+            <li><a href="2.html">BOL4</a></li>
+            <li><a href="3.html">sleeping</a></li>
+        </ul></h3>
 
-  <strong><p><a href="index.html">My favorite things</a></p></strong>
-  <ul>
-    <li><a href="1.html"><h3>shopping</h3></a></li>
-    <li><a href="2.html"><h3>BOL4</h3></a></li>
-    <li><a href="3.html"><h3>sleeping</h3></a></li>
-</ul>
+      <style>
+        h3{font size: 50px;}
+      </style>
 
+</div>
+<div class="iclass">
 
-<img src="mm.png" alt="mm">
-
-  </body>
+  <h2>내가 좋아하는 것들</h2>
+  <p>1.~~~</p>
+  <p>2.~~~</p>
+    <img src="mm.png" alt="mm">
+</div>
+</div>
+</body>
 </html>
