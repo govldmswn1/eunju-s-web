@@ -9,13 +9,10 @@ h1{
   margin: 0;
   padding: 20px;
   }
-
-  h2 {
-    color: red;
-  }
 .grid {
   display: grid;
-  grid-template-columns: 150px 1fr;
+  grid-template-columns: 400px 1fr;
+  text-align: center;
 }
 
 .navigation{
@@ -24,7 +21,20 @@ h1{
 
 .article {
   padding-left: 25px;
+  margin:auto;
+  text-align: center;
 }
+
+h3{font size: 50px;}
+.iclass{margin:auto;}
+h5{display:block;
+width: 900px;
+height: auto;
+background-color: #black;}
+.moviebest4{color: red;
+font-size: 50px;}
+.table{margin-left: 40px;}
+.yell {color:#FFBB00}
 
 @media(max-width:800px)
 {.grid{
@@ -37,3 +47,7 @@ h1{
 h1 {
   border-bottom: none;}
 }
+body{background-color: #f4c5c0;}
+
+.yell {font color:#FFBB00;
+font-size: 60px;}
