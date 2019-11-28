@@ -25,6 +25,17 @@ h1{
   text-align: center;
 }
 
+h3{font size: 50px;}
+.iclass{margin:auto;}
+h5{display:block;
+width: 900px;
+height: auto;
+background-color: #black;}
+.moviebest4{color: red;
+font-size: 50px;}
+.table{margin-left: 40px;}
+.yell {color:#FFBB00}
+
 @media(max-width:800px)
 {.grid{
   display: block;
@@ -36,4 +47,7 @@ h1{
 h1 {
   border-bottom: none;}
 }
-body{background-color: pink;}
+body{background-color: #f4c5c0;}
+
+.yell {font color:#FFBB00;
+font-size: 60px;}
