@@ -20,6 +20,7 @@ h1{
 }
 
 .article {
+  border-right: 1px gray solid;
   padding-left: 25px;
   margin:auto;
   text-align: center;
@@ -35,6 +36,9 @@ background-color: #black;}
 font-size: 50px;}
 .table{margin-left: 40px;}
 .yell {color:#FFBB00}
+* {
+  word-break:break-all;
+}
 
 @media(max-width:800px)
 {.grid{
